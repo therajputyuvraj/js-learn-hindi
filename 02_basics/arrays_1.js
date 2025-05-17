@@ -41,25 +41,7 @@ const person = {
 // The new object is linked to the prototype object, allowing it to inherit properties and methods from it
 
 
-// prototype:
-
-    // The prototype is an object that is associated with every JavaScript object by default.
 
 
-const user = Object.create(person);
-
-user.name = "Alice"; //add a new property to the user object
-
-user.greet(); // Output: Hello!
-
-console.log(user); // Output: Alice
-
-    //it means that the user object has access to the greet method from the person object, even though it is not defined directly on the user object.
-
-//another way of declaring array
-
-const arr2 = new Array(1, 2, 3, 4, 5); // Array constructor
-
-console.log(arr2); // Output: [1, 2, 3, 4, 5]
 
 
