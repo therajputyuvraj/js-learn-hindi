@@ -30,3 +30,17 @@ const score3 = 300;
 
 console.log("D: ", Array.from({score1, score2, score3})); // Output will be [100, 200, 300] // convert object to array
 
+
+
+// working with array of objects
+const users = [
+    2, 
+    4,
+    { name: "John", age: 25, arr: [1, 2, 3] },
+    { name: "Jane", age: 30 },
+    { name: "Jim", age: 35 },
+    5
+];
+
+console.log("E: ", users[2].arr[1]); // Output: 25
+
